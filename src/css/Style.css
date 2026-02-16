@@ -7,6 +7,9 @@
     --btn-color-text: #01080e;
     --btn-color: #fc314f;
 }
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0%;
     padding: 0%;
@@ -23,15 +26,13 @@
     src: url(../fonts/Chakra_Petch/ChakraPetch-Medium.ttf);
 }
 body{
-    background-color: var(--color-bg-darkhome);
-    color: #ffff;
-
+    color: white;
 }
-
 header{
     background-color: var(--color-bg-navbar);
     height: 90px;
     width: 100%;
+    position: fixed;
 }
 .cabecalio{
     height: 100%;
@@ -80,24 +81,39 @@ header{
     gap: 20px;
     display: flex;
     list-style-type: none;
+    li{
+        position: relative;
+    }
     li a{
+        border-radius: 10px;
+        padding: 10px 24px;
         font-size: 16px;
+        font-weight: 600;
         text-decoration: none;
         color: var(--color-primary);
-    }
-    li a:hover{
-        transition: 1s;
-        border-bottom: 2px solid #FFFF;
-    }
+        overflow: hidden;
+        }
+
+        li a:hover{
+            background: linear-gradient(43deg, #01080e, #0E0B76);
+            color: white;
+        }
+
+        li > a:active{
+            background-color: var(--color-primary);
+            color: #01080e;
+        }
 }
 
 
 #hero{
     background-color: #01080e;
     width: 100%;
-    height: 89.5vh;
-    background-image: linear-gradient( to right,  rgb(1, 8, 14,0.7), rgb(252, 49, 79,0.4) ), url(../img/Sem\ Título-4.png); 
+    height: 100vh;
+    background-image: linear-gradient( to right,  rgb(1, 8, 14,0.7), rgb(252, 49, 79,0.4) ), url(../img/1000x750.png); 
     background-position-x: 400px;
+    background-position-y: 90px;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     display: flex;
 }
@@ -110,7 +126,7 @@ header{
 
 .content-indtr{
     margin-left: 6.5%;
-    margin-top: 170px;
+    margin-top: 250px;
     h1{
     font-family: "Chakra Petch";
     margin-bottom: 20px;
@@ -121,4 +137,24 @@ header{
    p{
     text-align: left;
    }
+}
+#sobreProjeto{
+    background-color: #01080e;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top,rgb(252, 49, 79,0.4), rgb(1, 8, 14,0.7));   
+}
+
+#function{
+    background-color: #01080e;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top,rgb(252, 49, 79,0.4), rgb(1, 8, 14,0.7));
+}
+
+#contacto{
+    background-color: #01080e;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(252, 49, 79,0.4), rgb(1, 8, 14,0.7));
 }
