@@ -1,0 +1,12 @@
+{
+  "name": "ipage-zone",
+  "version": "1.0.0",
+  "description": "Projeto de ajuda, para estudantes que têm dificudades em sertas disciplina",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Makumbani Eduardo Pedro",
+  "license": "ISC"
+}

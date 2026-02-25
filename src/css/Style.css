@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family:"Chakra Petch";
+    src: url(../fonts/Chakra_Petch/ChakraPetch-Medium.ttf);
+}
+@font-face {
+    font-family: "Encode Sans";
+    src: url(../fonts/Encode_Sans/EncodeSans-VariableFont_wdth\,wght.ttf);
+}
+:root{
+    --color-destacar: #934C52;
+    --color-card: #C4BECD;
+    --color-borda: #716CA0;
+    --color-bg-navbar: #0E0B76;
+     --color-primary: #E67281;
+    --btn-color-text: #01080e;
+    --btn-color: #fc314f;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+body{
+    color: white;
+}
+header{
+    background-color: var(--color-bg-navbar);
+    height: 90px;
+    width: 100%;
+    position: fixed;
+}
+.cabecalio{
+    height: 100%;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    justify-content: space-between;
+    p{
+        color: transparent;
+    }
+     button{
+        flex-wrap: wrap;
+        padding: 10px 24px;
+        border-radius: 16px;
+        cursor: pointer;
+        color: var(--btn-color-text);
+        border-color: transparent;
+        background: var(--color-primary);
+        
+    }
+
+    button:hover{
+        border: 2px solid #ffff;
+        background: transparent;
+
+    }
+
+    button:hover > a{
+            color:  #ffff;
+         }
+
+    button a{
+        font-size: 12pt;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--btn-color-text);
+    }
+}
+
+.navBar{
+    display: flex;
+}
+
+.itemNavbar{
+    gap: 20px;
+    display: flex;
+    list-style-type: none;
+    li{
+        position: relative;
+    }
+    li a{
+        border-radius: 10px;
+        padding: 10px 24px;
+        font-size: 16px;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--color-primary);
+        overflow: hidden;
+        }
+
+        li a:hover{
+            background: linear-gradient(43deg, #01080e, #0E0B76);
+            color: white;
+        }
+}
+
+
+#hero{
+    background-color: #01080e;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( to right,  rgb(1, 8, 14,0.7), rgb(252, 49, 79,0.4) ), url(../img/logo_hero_transparent_900x675.png); 
+    background-position-x: 500px;
+    background-position-y: 90px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.content-principal{
+   width: 50%;
+   display: flex;
+   
+}
+
+.content-indtr{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 6.5%;
+    margin-top: 250px;
+    text-align: justify;
+    h1{
+    font-family: "Chakra Petch";
+    margin-bottom: 20px;
+    margin-left: 13%;
+    font-size: 58pt;
+    font-weight: 900;   
+   }
+   h2{
+    text-align: justify;
+   }
+   p{
+    margin-top: 5px;
+    text-align: justify;
+   }
+   
+     button{
+        width: 300px;
+        margin: 18px auto;
+        padding: 10px 24px;
+        border-radius: 16px;
+        cursor: pointer;
+        color: var(--btn-color-text);
+        border-color: transparent;
+        background: var(--color-primary);
+        
+    }
+
+    button:hover{
+        border: 2px solid #ffff;
+        background: transparent;
+
+    }
+
+    button:hover > a{
+            color:  #ffff;
+         }
+
+    button a{
+        font-size: 12pt;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--btn-color-text);
+    }
+}
+#sobreProjeto{
+    background-color: #01080e;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top,rgb(252, 49, 79,0.4), rgb(1, 8, 14,0.7));   
+}
+
+#function{
+    background-color: #01080e;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top,rgb(252, 49, 79,0.4), rgb(1, 8, 14,0.7));
+}
+
+#contacto{
+    background-color: #01080e;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(252, 49, 79,0.4), rgb(1, 8, 14,0.7));
+}
