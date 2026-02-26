@@ -110,14 +110,11 @@ header{
             background: linear-gradient(43deg, #01080e, #0E0B76);
             color: white;
         }
-<<<<<<< HEAD
-=======
 
         li > a:active{
             background-color: var(--color-primary);
             color: #01080e;
         }
->>>>>>> 294b665f3707ac92f8111cb1e99556db900dc086
 }
 
 
