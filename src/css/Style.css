@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @font-face {
     font-family: "Inter";
     src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
@@ -11,8 +10,6 @@
     font-family: "Encode Sans";
     src: url(../fonts/Encode_Sans/EncodeSans-VariableFont_wdth\,wght.ttf);
 }
-=======
->>>>>>> 294b665f3707ac92f8111cb1e99556db900dc086
 :root{
     --color-destacar: #934C52;
     --color-card: #C4BECD;
@@ -32,8 +29,6 @@ html{
     font-family: "Inter";
 }
 
-<<<<<<< HEAD
-=======
 @font-face {
     font-family: "Inter";
     src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
@@ -42,7 +37,6 @@ html{
     font-family:"Chakra Petch";
     src: url(../fonts/Chakra_Petch/ChakraPetch-Medium.ttf);
 }
->>>>>>> 294b665f3707ac92f8111cb1e99556db900dc086
 body{
     color: white;
 }
@@ -131,13 +125,10 @@ header{
     background-color: #01080e;
     width: 100%;
     height: 100vh;
-<<<<<<< HEAD
     background-image: linear-gradient( to right,  rgb(1, 8, 14,0.7), rgb(252, 49, 79,0.4) ), url(../img/logo_hero_transparent_900x675.png); 
     background-position-x: 500px;
-=======
     background-image: linear-gradient( to right,  rgb(1, 8, 14,0.7), rgb(252, 49, 79,0.4) ), url(../img/1000x750.png); 
     background-position-x: 400px;
->>>>>>> 294b665f3707ac92f8111cb1e99556db900dc086
     background-position-y: 90px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -151,7 +142,6 @@ header{
 }
 
 .content-indtr{
-<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -201,7 +191,6 @@ header{
         text-decoration: none;
         color: var(--btn-color-text);
     }
-=======
     margin-left: 6.5%;
     margin-top: 250px;
     h1{
@@ -214,7 +203,6 @@ header{
    p{
     text-align: left;
    }
->>>>>>> 294b665f3707ac92f8111cb1e99556db900dc086
 }
 #sobreProjeto{
     background-color: #01080e;
